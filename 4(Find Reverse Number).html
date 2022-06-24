@@ -8,12 +8,12 @@
 	<script type="text/javascript">
 		n=prompt("Enter Number");
 		while(n>=1)
-		{
-			a=n%10;
-			document.write(a);
-			n=parseInt(n/10);
-		}
-		
+			{
+				a=n%10; 
+				n=parseInt(n/10);
+				rev=rev*10+a;
+			}
+		document.write(rev);		
 		
 	</script>
 
