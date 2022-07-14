@@ -91,6 +91,7 @@
             clearInterval(d);
             clearInterval(l);
             clearInterval(r);
+            clearInterval(u);
             u=setInterval(upsnake,80)
             
         }
@@ -99,7 +100,7 @@
              
             var sn=document.getElementById("snake");
             var topVal = parseInt(sn.style.top, 10);
-            if(topVal>2000)
+            if(topVal>600)
             {
                 
             document.write('<img src="https://i.gifer.com/QeMS.gif">');
@@ -113,6 +114,7 @@
             clearInterval(u);
             clearInterval(l);
             clearInterval(r);
+            clearInterval(d);
             d=setInterval(downsnake,80)
         }
         function leftsnake()
@@ -133,6 +135,7 @@
             clearInterval(u);
             clearInterval(d);
             clearInterval(r);
+            clearInterval(l);
             l=setInterval(leftsnake,80)
             
         }
@@ -154,6 +157,7 @@
             clearInterval(u);
             clearInterval(d);
             clearInterval(l);
+            clearInterval(r);
             r=setInterval(rightsnake,80)
             
         }
